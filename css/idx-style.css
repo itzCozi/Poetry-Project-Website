@@ -3,9 +3,9 @@ p {
   width: fit-content;
   text-shadow: 0px 4px 4px #00000040;
   font-family: Tahoma;
-  font-weight: 400;
+  font-weight: 100;
   color: #e7e7e7;
-  font-size: 0.9em;
+  font-size: 0.65em;
   text-align: left;
   letter-spacing: 0;
   line-height: normal;
@@ -14,7 +14,7 @@ p {
 }
 
 body {
-  background-color: #adadad;
+  background-color: #dbdbdb;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
 }
 
 .desktop {
-  background-color: #adadad;
+  background-color: #dbdbdb;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .desktop .overlap-group-wrapper {
-  background-color: #adadad;
+  background-color: #dbdbdb;
   width: 90%; /* Adjusted for responsiveness */
   max-width: 1440px; /* Max width */
   height: auto; /* Adjusted for responsiveness */

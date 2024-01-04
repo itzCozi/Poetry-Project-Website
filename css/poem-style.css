@@ -14,7 +14,7 @@ p {
 }
 
 body {
-  background-color: #adadad;
+  background-color: #dbdbdb;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
 }
 
 .desktop {
-  background-color: #adadad;
+  background-color: #dbdbdb;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .desktop .overlap-group-wrapper {
-  background-color: #adadad;
+  background-color: #dbdbdb;
   width: 90%; /* Adjusted for responsiveness */
   max-width: 1440px; /* Max width */
   height: auto; /* Adjusted for responsiveness */
