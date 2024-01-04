@@ -1,0 +1,8 @@
+NOTES:
+index.html: Analytical Writing
+font family is Tahoma
+
+
+TODO:
+* drawing-page.html, video-page.html
+* link pages together using a next/back button
