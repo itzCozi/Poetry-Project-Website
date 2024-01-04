@@ -4,5 +4,7 @@ font family is Tahoma
 
 
 TODO:
+* Fix poem page box placed at the top ask chatgpt to place box in the middle of page
+* Replace <p> in index.html to the essay.png image
 * drawing-page.html, video-page.html
 * link pages together using a next/back button
