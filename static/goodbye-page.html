@@ -1,0 +1,62 @@
+<!doctype html>
+<!--Home / essay-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cooper’s Poetry Project</title>
+    <link rel="icon" type="image/x-icon" href="/assets/file-icon.png">
+    <link rel="stylesheet" href="/css/goodbye-style.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var homeButton = document.querySelector(".text-wrapper");
+        var homeBox = document.querySelector(".rectangle");
+
+        homeButton.addEventListener("click", function () {
+          window.location.href = "/index.html";
+        });
+        homeBox.addEventListener("click", function () {
+          window.location.href = "/index.html";
+        });
+
+        var quitButton = document.querySelector(".text-wrapper2");
+        var quitBox = document.querySelector(".rectangle2");
+
+        quitButton.addEventListener("click", function () {
+          open(location, '_self').close();
+        });
+        quitBox.addEventListener("click", function () {
+          open(location, '_self').close();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="desktop">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <div class="header">Cooper’s Poetry Project</div>
+          <div class="essay-name">Goodbye & Thank You!</div>
+          <div class="analytical-writing">
+            <p>
+              You have reached the last page of this website, feel free to restart from <br>
+              the beginning of the presentation by clicking the 'Home' button below. Or click <br>
+              the "Close Tab" button to close the current tab.
+            </p>
+          </div>
+          <div class="box">
+            <div class="rectangle">
+              <div class="text-wrapper">Home</div>
+            </div>
+          </div>
+          <div class="box2">
+            <div class="rectangle2">
+              <div class="text-wrapper2">Close</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
