@@ -1,8 +1,9 @@
 NOTES:
 index.html: Analytical Writing
 font family is Tahoma
-FOR SOME REASON THE PAGES CANT FIND EACH OTHER ON GITHUB PAGES SO
-IG FIGURE THAT OUT BEFORE THE 10TH
+
+FLOW:
+index.html > new-poem-page.html > video-page.html > drawing-page.html > goodbye.html
 
 TODO:
 * Fix poem page box placed at the top ask chatgpt to place box in the middle of page

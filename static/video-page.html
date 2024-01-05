@@ -1,13 +1,62 @@
 <!doctype html>
 <html>
   <head>
-    <title>Placeholder</title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <title>Mother to Son</title>
+    <link rel="icon" type="image/x-icon" href="/assets/file-icon.png">
     <link rel="stylesheet" href="/css/video-style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var nextButton = document.querySelector(".text-wrapper");
+        var nextBox = document.querySelector(".rectangle");
+
+        nextButton.addEventListener("click", function () {
+          window.location.href = "/static/drawing-page.html";
+        });
+        nextBox.addEventListener("click", function () {
+          window.location.href = "/static/drawing-page.html";
+        });
+
+        var backButton = document.querySelector(".text-wrapper2");
+        var backBox = document.querySelector(".rectangle2");
+
+        backButton.addEventListener("click", function () {
+          window.location.href = "/static/new-poem-page.html";
+        });
+        backBox.addEventListener("click", function () {
+          window.location.href = "/static/new-poem-page.html";
+        });
+      });
+    </script>
   </head>
 
   <body>
-    <p>Not yet implemented...</p>
+    <div class="desktop">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <div class="header">Cooper’s Poetry Project</div>
+          <div class="author-name">Spoken Performance of 'West'</div>
+          <div class="video-box">
+            <div class="video-rect">
+              <video width="640" height="480" controls>
+                <source src="/assets/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>  
+          <div class="box">
+            <div class="rectangle">
+              <div class="text-wrapper">Next</div>
+            </div>
+          </div>
+          <div class="box2">
+            <div class="rectangle2">
+              <div class="text-wrapper2">Back</div>
+            </div>
+          </div>          
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

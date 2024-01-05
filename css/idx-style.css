@@ -24,8 +24,8 @@ body {
 
 /* Desktop Layout */
 .desktop {
-  padding-top: calc((100vh - 120px) / 5);
-  padding-bottom: calc((100vh - 120px) / 5);
+  padding-top: calc((100vh - 120px) / 2);
+  padding-bottom: calc((100vh - 120px) / 2);
   background-color: #dbdbdb;
   display: flex;
   flex-direction: row;
