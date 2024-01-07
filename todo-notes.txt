@@ -3,7 +3,7 @@ index.html: Analytical Writing
 font family is Tahoma
 
 FLOW:
-index.html > new-poem-page.html > video-page.html > drawing-page.html > goodbye.html
+*index.html > *new-poem-page.html > *video-page.html > drawing-page.html > goodbye.html
 
 TODO:
 * Fix poem page box placed at the top ask chatgpt to place box in the middle of page

@@ -1,15 +1,58 @@
 <!doctype html>
-<!--New original poem-->
+<!--Mother to Son poem-->
 <html>
   <head>
-    <title>Placeholder</title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <title>Cooper’s Poetry Project</title>
     <link rel="icon" type="image/x-icon" href="/assets/file-icon.png">
     <link rel="stylesheet" href="/css/new-poem-style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var nextButton = document.querySelector(".text-wrapper");
+        var nextBox = document.querySelector(".rectangle");
+
+        nextButton.addEventListener("click", function () {
+          window.location.href = "/static/video-page.html";
+        });
+        nextBox.addEventListener("click", function () {
+          window.location.href = "/static/video-page.html";
+        });
+
+        var backButton = document.querySelector(".text-wrapper2");
+        var backBox = document.querySelector(".rectangle2");
+
+        backButton.addEventListener("click", function () {
+          window.location.href = "/index.html";
+        });
+        backBox.addEventListener("click", function () {
+          window.location.href = "/index.html";
+        });
+      });
+    </script>
   </head>
 
   <body>
-    <p>Not yet implemented...</p>
+    <div class="desktop">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <div class="header">West</div>
+          <div class="author-name">By Cooper Ransom</div>
+          <div class="image">
+            <img class="poem" src="/assets/new-poem.png"/>
+          </div>
+          <div class="box">
+            <div class="rectangle">
+              <div class="text-wrapper">Next</div>
+            </div>
+          </div>
+          <div class="box2">
+            <div class="rectangle2">
+              <div class="text-wrapper2">Back</div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
