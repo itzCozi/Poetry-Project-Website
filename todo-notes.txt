@@ -6,7 +6,5 @@ FLOW:
 *index.html > *new-poem-page.html > *video-page.html > drawing-page.html > goodbye.html
 
 TODO:
-* Fix poem page box placed at the top ask chatgpt to place box in the middle of page
-* Replace <p> in index.html to the essay.png image
-* drawing-page.html, video-page.html
-* link pages together using a next/back button
+* Ask chatgpt to center overlay-group in the center of desktop for all pages
+* Ask chatgpt to center desktop in the middle of the screen
