@@ -6,4 +6,4 @@ FLOW:
 *index.html > *new-poem-page.html > *video-page.html > drawing-page.html > goodbye.html
 
 TODO:
-* On video-page, poem-page, new-poem-page and drawing-page
+* On new-poem-page.html add all images in assets/west/ to the left and right of the poem
