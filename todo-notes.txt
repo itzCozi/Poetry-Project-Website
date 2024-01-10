@@ -6,5 +6,4 @@ FLOW:
 *index.html > *new-poem-page.html > *video-page.html > drawing-page.html > goodbye.html
 
 TODO:
-* Ask chatgpt to center overlay-group in the center of desktop for all pages
-* Ask chatgpt to center desktop in the middle of the screen
+* On video-page, poem-page, new-poem-page and drawing-page

@@ -23,8 +23,8 @@ body {
 }
 
 .desktop {
-  padding-top: calc((100vh - 120px) / 2); /* This will add half the remaining space above the content */
-  padding-bottom: calc((100vh - 120px) / 2); /* This will add half the remaining space below the content */
+  padding-top: calc((100vh - 120px) / 2); 
+  padding-bottom: calc((100vh - 120px) / 2);
   background-color: #dbdbdb;
   display: flex;
   flex-direction: row;
